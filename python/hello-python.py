@@ -1,7 +1,3 @@
 def lambda_handler(event, context):
-   message = 'Hello {} !'.format(event['key1'])
-   return {
-       'message' : message
-   }
-
+   return "This is the function I created using terraform"
    
