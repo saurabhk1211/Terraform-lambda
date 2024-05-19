@@ -57,7 +57,7 @@ pipeline {
             steps {
                  bat '''
                 cd terraform 
-                C:\\Users\\LENOVO\\OneDrive\\Desktop\\Terraform\\terraform.exe apply -input=false tfplan
+                C:\\Users\\LENOVO\\OneDrive\\Desktop\\Terraform\\terraform.exe apply -input=true tfplan
                 '''
             }
         }
