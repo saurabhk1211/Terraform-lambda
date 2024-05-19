@@ -29,7 +29,7 @@ pipeline {
             steps {
                  bat '''
                 cd terraform 
-                C:\\Users\\LENOVO\\OneDrive\\Desktop\\Terraform\\terraform.exe terraform apply -auto-approve
+                C:\\Users\\LENOVO\\OneDrive\\Desktop\\Terraform\\terraform.exe apply -auto-approve
                 '''
             }
         }
